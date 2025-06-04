@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Instalador de Scripts SIGEDUCA
 // @namespace    http://tampermonkey.net/
-// @version      2.1
+// @version      2.2
 // @description  Instala scripts por perfil no SIGEDUCA
 // @match        http://sigeduca.seduc.mt.gov.br/geral/hwlogin2.aspx
 // @grant        none
@@ -17,7 +17,8 @@
             "https://raw.githubusercontent.com/Jhonatan-Aquino/Lanca-Historico-GED/main/Lancamento-Automatico_Historico.user.js",
             "https://raw.githubusercontent.com/lksoumon/confirmaNotas/main/confirmaNotas.user.js",
             "https://raw.githubusercontent.com/lksoumon/confirmaDiario/main/confimaDiario.user.js",
-            "https://raw.githubusercontent.com/lksoumon/sigeducaFichaAnalitica/main/FichaIndividualAnalitica.user.js"
+            "https://raw.githubusercontent.com/lksoumon/sigeducaFichaAnalitica/main/FichaIndividualAnalitica.user.js",
+            "https://raw.githubusercontent.com/donidozh/FormataBoletins.EnsinoMedio/main/formata_boletinsEM.user.js"
         ],
         "Ferramentas Secretário": [
             "https://raw.githubusercontent.com/robersonarruda/extratorgpe/main/extgpe.user.js",
@@ -31,7 +32,8 @@
             "https://raw.githubusercontent.com/lksoumon/AnaliseDiariosSigeduca/main/ConferidorDiariosClasse.user.js",
             "https://raw.githubusercontent.com/robersonarruda/extratordep/main/extratordep.user.js",
             "https://raw.githubusercontent.com/donidozh/ExtratorGED/main/ExtratorGED.js",
-            "https://raw.githubusercontent.com/Jhonatan-Aquino/Lanca-Historico-GED/main/Lancamento-Automatico_Historico.user.js"
+            "https://raw.githubusercontent.com/Jhonatan-Aquino/Lanca-Historico-GED/main/Lancamento-Automatico_Historico.user.js",
+            "https://raw.githubusercontent.com/donidozh/FormataBoletins.EnsinoMedio/main/formata_boletinsEM.user.js"
         ],
         "Ferramentas Coordenador": [
             "https://raw.githubusercontent.com/lksoumon/confirmaNotas/main/confirmaNotas.user.js",
@@ -42,14 +44,13 @@
             "https://raw.githubusercontent.com/lksoumon/CalculoGPE/main/CalculoHoras.user.js",
             "https://raw.githubusercontent.com/lksoumon/sigeducaFichaAnalitica/main/FichaIndividualAnalitica.user.js",
             "https://raw.githubusercontent.com/lksoumon/AnaliseDiariosSigeduca/main/ConferidorDiariosClasse.user.js",
-            "https://raw.githubusercontent.com/donidozh/ExtratorGED/main/ExtratorGED.js"
+            "https://raw.githubusercontent.com/donidozh/ExtratorGED/main/ExtratorGED.js",
+            "https://raw.githubusercontent.com/donidozh/FormataBoletins.EnsinoMedio/main/formata_boletinsEM.user.js"
         ]
     };
 
-    // Junta todos os scripts sem repetir
     const allScripts = Array.from(new Set(Object.values(scripts).flat()));
 
-    // Cria botão principal
     const mainBtn = document.createElement("button");
     mainBtn.innerText = "📦 Instalar Scripts";
     mainBtn.style.position = "fixed";
@@ -63,7 +64,6 @@
     mainBtn.style.borderRadius = "5px";
     mainBtn.style.cursor = "pointer";
 
-    // Cria submenu
     const submenu = document.createElement("div");
     submenu.style.position = "fixed";
     submenu.style.top = "50px";
@@ -76,7 +76,6 @@
     submenu.style.display = "none";
     submenu.style.boxShadow = "0px 0px 10px rgba(0,0,0,0.2)";
 
-    // Função para criar botão de grupo
     function addGroupButton(groupName, urls) {
         const btn = document.createElement("button");
         btn.innerText = groupName;
@@ -97,15 +96,12 @@
         submenu.appendChild(btn);
     }
 
-    // Adiciona grupos ao submenu
     for (const [group, urls] of Object.entries(scripts)) {
         addGroupButton(group, urls);
     }
 
-    // Botão "Instalar Tudo"
     addGroupButton("🚀 Instalar Tudo", allScripts);
 
-    // Alternar submenu
     mainBtn.onclick = () => {
         submenu.style.display = submenu.style.display === "none" ? "block" : "none";
     };
