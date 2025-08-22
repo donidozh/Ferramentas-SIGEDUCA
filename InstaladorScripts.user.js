@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Instalador de Scripts SIGEDUCA
 // @namespace    http://tampermonkey.net/
-// @version      2.3
+// @version      2.4
 // @description  Instala scripts por perfil no SIGEDUCA
 // @match        http://sigeduca.seduc.mt.gov.br/geral/hwlogin2.aspx
 // @grant        none
@@ -17,7 +17,7 @@
             "https://raw.githubusercontent.com/Jhonatan-Aquino/Lanca-Historico-GED/main/Lancamento-Automatico_Historico.user.js",
             "https://raw.githubusercontent.com/lksoumon/confirmaNotas/main/confirmaNotas.user.js",
             "https://raw.githubusercontent.com/lksoumon/confirmaDiario/main/confimaDiario.user.js",
-            "https://raw.githubusercontent.com/lksoumon/sigeducaFichaAnalitica/main/FichaIndividualAnalitica.user.js",
+            "https://raw.githubusercontent.com/donidozh/sigeducaFichaAnalitica2/main/FichaIndividualAnalitica2.user.js",
             "https://raw.githubusercontent.com/donidozh/FormataBoletins.EnsinoMedio/main/formata_boletinsEM.user.js"
         ],
         "Ferramentas Secretário": [
@@ -28,7 +28,7 @@
             "https://raw.githubusercontent.com/lksoumon/formataCalendario/main/formataCalendario.user.js",
             "https://raw.githubusercontent.com/lksoumon/extrairMatrizes/main/extrairMatrizes.user.js",
             "https://raw.githubusercontent.com/lksoumon/CalculoGPE/main/CalculoHoras.user.js",
-            "https://raw.githubusercontent.com/lksoumon/sigeducaFichaAnalitica/main/FichaIndividualAnalitica.user.js",
+            "https://raw.githubusercontent.com/donidozh/sigeducaFichaAnalitica2/main/FichaIndividualAnalitica2.user.js",
             "https://raw.githubusercontent.com/lksoumon/AnaliseDiariosSigeduca/main/ConferidorDiariosClasse.user.js",
             "https://raw.githubusercontent.com/robersonarruda/extratordep/main/extratordep.user.js",
             "https://raw.githubusercontent.com/donidozh/ExtratorGED/main/ExtratorGED.user.js",
@@ -42,7 +42,7 @@
             "https://raw.githubusercontent.com/lksoumon/formataCalendario/main/formataCalendario.user.js",
             "https://raw.githubusercontent.com/lksoumon/extrairMatrizes/main/extrairMatrizes.user.js",
             "https://raw.githubusercontent.com/lksoumon/CalculoGPE/main/CalculoHoras.user.js",
-            "https://raw.githubusercontent.com/lksoumon/sigeducaFichaAnalitica/main/FichaIndividualAnalitica.user.js",
+            "https://raw.githubusercontent.com/donidozh/sigeducaFichaAnalitica2/main/FichaIndividualAnalitica2.user.js",
             "https://raw.githubusercontent.com/lksoumon/AnaliseDiariosSigeduca/main/ConferidorDiariosClasse.user.js",
             "https://raw.githubusercontent.com/donidozh/ExtratorGED/main/ExtratorGED.user.js",
             "https://raw.githubusercontent.com/donidozh/FormataBoletins.EnsinoMedio/main/formata_boletinsEM.user.js"
