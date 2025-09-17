@@ -21,6 +21,7 @@
             "https://raw.githubusercontent.com/lksoumon/confirmaDiario/main/confimaDiario.user.js",
             "https://raw.githubusercontent.com/donidozh/sigeducaFichaAnalitica2/main/FichaIndividualAnalitica2.user.js",
             "https://raw.githubusercontent.com/donidozh/FormataBoletins.EnsinoMedio/main/formata_boletinsEM.user.js"
+            "https://raw.githubusercontent.com/donidozh/AutomatizaPCA/main/AutomatizaPCA.user.js"
         ],
         "Ferramentas Secretário": [
             "https://raw.githubusercontent.com/robersonarruda/extratorgpe/main/extgpe.user.js",
@@ -36,6 +37,7 @@
             "https://raw.githubusercontent.com/donidozh/ExtratorGED/main/ExtratorGED.user.js",
             "https://raw.githubusercontent.com/Jhonatan-Aquino/Lanca-Historico-GED/main/Lancamento-Automatico_Historico.user.js",
             "https://raw.githubusercontent.com/donidozh/FormataBoletins.EnsinoMedio/main/formata_boletinsEM.user.js"
+            "https://raw.githubusercontent.com/donidozh/AutomatizaPCA/main/AutomatizaPCA.user.js"
         ],
         "Ferramentas Coordenador": [
             "https://raw.githubusercontent.com/lksoumon/confirmaNotas/main/confirmaNotas.user.js",
