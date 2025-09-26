@@ -22,6 +22,7 @@
             "https://raw.githubusercontent.com/donidozh/sigeducaFichaAnalitica2/main/FichaIndividualAnalitica2.user.js",
             "https://raw.githubusercontent.com/donidozh/FormataBoletins.EnsinoMedio/main/formata_boletinsEM.user.js"
             "https://raw.githubusercontent.com/donidozh/AutomatizaPCA/main/AutomatizaPCA.user.js"
+            "https://raw.githubusercontent.com/donidozh/RemoveSemValor/main/RemoveSemValor.user.js"
         ],
         "Ferramentas Secretário": [
             "https://raw.githubusercontent.com/robersonarruda/extratorgpe/main/extgpe.user.js",
@@ -38,6 +39,7 @@
             "https://raw.githubusercontent.com/Jhonatan-Aquino/Lanca-Historico-GED/main/Lancamento-Automatico_Historico.user.js",
             "https://raw.githubusercontent.com/donidozh/FormataBoletins.EnsinoMedio/main/formata_boletinsEM.user.js"
             "https://raw.githubusercontent.com/donidozh/AutomatizaPCA/main/AutomatizaPCA.user.js"
+            "https://raw.githubusercontent.com/donidozh/RemoveSemValor/main/RemoveSemValor.user.js"
         ],
         "Ferramentas Coordenador": [
             "https://raw.githubusercontent.com/lksoumon/confirmaNotas/main/confirmaNotas.user.js",
@@ -94,7 +96,7 @@
 
         btn.onclick = () => {
             urls.forEach(url => window.open(url, "_blank"));
-            alert(`${groupName} - páginas de instalação abertas`);
+            alert(`${groupName} - Clique em Instalar nas guias abertas`);
         };
 
         submenu.appendChild(btn);
