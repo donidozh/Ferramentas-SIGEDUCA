@@ -23,6 +23,7 @@
             "https://raw.githubusercontent.com/donidozh/FormataBoletins.EnsinoMedio/main/formata_boletinsEM.user.js",
             "https://raw.githubusercontent.com/donidozh/AutomatizaPCA/main/AutomatizaPCA.user.js",
             "https://raw.githubusercontent.com/donidozh/RemoveSemValor/main/RemoveSemValor.user.js",
+            "https://raw.githubusercontent.com/donidozh/OtimizadorHistorico/main/OtimizadorHistorico.user.js",
         ],
         "Ferramentas Secretário": [
             "https://raw.githubusercontent.com/robersonarruda/extratorgpe/main/extgpe.user.js",
@@ -40,6 +41,7 @@
             "https://raw.githubusercontent.com/donidozh/FormataBoletins.EnsinoMedio/main/formata_boletinsEM.user.js",
             "https://raw.githubusercontent.com/donidozh/AutomatizaPCA/main/AutomatizaPCA.user.js",
             "https://raw.githubusercontent.com/donidozh/RemoveSemValor/main/RemoveSemValor.user.js",
+            "https://raw.githubusercontent.com/donidozh/OtimizadorHistorico/main/OtimizadorHistorico.user.js",
         ],
         "Ferramentas Coordenador": [
             "https://raw.githubusercontent.com/lksoumon/confirmaNotas/main/confirmaNotas.user.js",
