@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Instalador de Scripts SIGEDUCA
 // @namespace    http://tampermonkey.net/
-// @version      2.6
+// @version      2.7
 // @description  Instala scripts por perfil no SIGEDUCA
 // @match        http://sigeduca.seduc.mt.gov.br/geral/hwlogin2.aspx
 // @updateURL    https://raw.githubusercontent.com/donidozh/Ferramentas-SIGEDUCA/main/InstaladorScripts.user.js
