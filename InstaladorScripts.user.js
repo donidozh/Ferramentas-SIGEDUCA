@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Instalador de Scripts SIGEDUCA
 // @namespace    http://tampermonkey.net/
-// @version      2.7
+// @version      2.8
 // @description  Instala scripts por perfil no SIGEDUCA
 // @match        http://sigeduca.seduc.mt.gov.br/geral/hwlogin2.aspx
 // @updateURL    https://raw.githubusercontent.com/donidozh/Ferramentas-SIGEDUCA/main/InstaladorScripts.user.js
@@ -15,7 +15,7 @@
     const scripts = {
         "Ferramentas TAE": [
             "https://raw.githubusercontent.com/robersonarruda/extratordep/main/extratordep.user.js",
-            "https://raw.githubusercontent.com/donidozh/ExtratorGED/main/ExtratorGED.user.js",
+            "https://github.com/robersonarruda/extratorsgdc/raw/main/extratosgdc.user.js",
             "https://raw.githubusercontent.com/Jhonatan-Aquino/Lanca-Historico-GED/main/Lancamento-Automatico_Historico.user.js",
             "https://raw.githubusercontent.com/lksoumon/confirmaNotas/main/confirmaNotas.user.js",
             "https://raw.githubusercontent.com/lksoumon/confirmaDiario/main/confimaDiario.user.js",
@@ -36,7 +36,7 @@
             "https://raw.githubusercontent.com/lksoumon/sigeducaFichaAnalitica/main/FichaIndividualAnalitica.user.js",
             "https://raw.githubusercontent.com/donidozh/AnaliseDiariosSemConteudo/main/analiseDiariosSemConteudo.user.js",
             "https://raw.githubusercontent.com/robersonarruda/extratordep/main/extratordep.user.js",
-            "https://raw.githubusercontent.com/donidozh/ExtratorGED/main/ExtratorGED.user.js",
+            "https://github.com/robersonarruda/extratorsgdc/raw/main/extratosgdc.user.js",
             "https://raw.githubusercontent.com/Jhonatan-Aquino/Lanca-Historico-GED/main/Lancamento-Automatico_Historico.user.js",
             "https://raw.githubusercontent.com/donidozh/FormataBoletins.EnsinoMedio/main/formata_boletinsEM.user.js",
             "https://raw.githubusercontent.com/donidozh/AutomatizaPCA/main/AutomatizaPCA.user.js",
