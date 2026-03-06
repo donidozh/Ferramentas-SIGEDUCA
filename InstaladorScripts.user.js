@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Instalador de Scripts SIGEDUCA
 // @namespace    http://tampermonkey.net/
-// @version      2.9
+// @version      3.0
 // @description  Instala scripts por perfil no SIGEDUCA
 // @match        http://sigeduca.seduc.mt.gov.br/geral/hwlogin2.aspx
 // @updateURL    https://raw.githubusercontent.com/donidozh/Ferramentas-SIGEDUCA/main/InstaladorScripts.user.js
@@ -22,8 +22,7 @@
             "https://raw.githubusercontent.com/lksoumon/sigeducaFichaAnalitica/main/FichaIndividualAnalitica.user.js",
             "https://raw.githubusercontent.com/donidozh/FormataBoletins.EnsinoMedio/main/formata_boletinsEM.user.js",
             "https://raw.githubusercontent.com/donidozh/AutomatizaPCA/main/AutomatizaPCA.user.js",
-            "https://raw.githubusercontent.com/donidozh/RemoveSemValor/main/RemoveSemValor.user.js",
-            "https://raw.githubusercontent.com/donidozh/OtimizadorHistorico/main/OtimizadorHistorico.user.js",
+            "https://github.com/donidozh/AjustarHistorico/raw/refs/heads/main/AjustarHistorico.user.js",
             "https://github.com/donidozh/ExtratorPDFSigeduca/raw/refs/heads/main/ExtratorPDFSigeduca.user.js",
         ],
         "Ferramentas Secretário": [
@@ -41,8 +40,7 @@
             "https://raw.githubusercontent.com/Jhonatan-Aquino/Lanca-Historico-GED/main/Lancamento-Automatico_Historico.user.js",
             "https://raw.githubusercontent.com/donidozh/FormataBoletins.EnsinoMedio/main/formata_boletinsEM.user.js",
             "https://raw.githubusercontent.com/donidozh/AutomatizaPCA/main/AutomatizaPCA.user.js",
-            "https://raw.githubusercontent.com/donidozh/RemoveSemValor/main/RemoveSemValor.user.js",
-            "https://raw.githubusercontent.com/donidozh/OtimizadorHistorico/main/OtimizadorHistorico.user.js",
+            "https://github.com/donidozh/AjustarHistorico/raw/refs/heads/main/AjustarHistorico.user.js",
             "https://github.com/donidozh/ExtratorPDFSigeduca/raw/refs/heads/main/ExtratorPDFSigeduca.user.js",
         ],
         "Ferramentas Coordenador": [
