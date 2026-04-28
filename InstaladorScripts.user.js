@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Instalador de Scripts SIGEDUCA
 // @namespace    http://tampermonkey.net/
-// @version      3.1
+// @version      3.2
 // @description  Instala scripts por perfil no SIGEDUCA
 // @match        http://sigeduca.seduc.mt.gov.br/geral/hwlogin2.aspx
 // @updateURL    https://raw.githubusercontent.com/donidozh/Ferramentas-SIGEDUCA/main/InstaladorScripts.user.js
@@ -15,7 +15,7 @@
     const scripts = {
         "Ferramentas TAE": [
             "https://raw.githubusercontent.com/robersonarruda/extratordep/main/extratordep.user.js",
-            "https://github.com/robersonarruda/extratorsgdc/raw/main/extratosgdc.user.js",
+            "https://github.com/donidozh/ExtratorGED/raw/refs/heads/main/ExtratorGED.user.js",
             "https://raw.githubusercontent.com/Jhonatan-Aquino/Lanca-Historico-GED/main/Lancamento-Automatico_Historico.user.js",
             "https://raw.githubusercontent.com/lksoumon/confirmaNotas/main/confirmaNotas.user.js",
             "https://raw.githubusercontent.com/lksoumon/confirmaDiario/main/confimaDiario.user.js",
@@ -26,7 +26,7 @@
             "https://github.com/donidozh/ExtratorTurmasSigeduca/raw/refs/heads/main/ExtratorTurmasSigeduca.user.js",
         ],
         "Ferramentas Secretário": [
-            "https://raw.githubusercontent.com/robersonarruda/extratorgpe/main/extgpe.user.js",
+            "https://github.com/donidozh/ExtratorGED/raw/refs/heads/main/ExtratorGED.user.js",
             "https://raw.githubusercontent.com/lksoumon/confirmaNotas/main/confirmaNotas.user.js",
             "https://raw.githubusercontent.com/lksoumon/confirmaDiario/main/confimaDiario.user.js",
             "https://raw.githubusercontent.com/lksoumon/extrator-Atribui-es-GPE/main/extratorAtribuicao.user.js",
